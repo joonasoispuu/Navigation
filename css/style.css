@@ -1,0 +1,64 @@
+.table{
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    /*justify-content: space-around;*/
+    background-color: rgb(221, 235, 176);
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.Picture{
+    margin-top: 10%;
+}
+
+img{
+    width: 20%;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 15px;
+    text-align: center;
+    background-color: rgb(235, 238, 58);
+    color: #909497;
+    font-family: sans-serif;
+    margin: 1;
+}
+
+table,th,td{
+    border-collapse: collapse;
+}
+
+nav ul{
+    list-style: none;
+    margin-top: 3rem;
+}
+
+.leftnav{
+    display: inline-block;
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+
+.topnav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 20%;
+}
